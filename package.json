@@ -6,6 +6,7 @@
         "node": ">=22.x"
     },
     "scripts": {
+        "vercel-build": "tsc && vite build && node scripts/build-dist.js",
         "build": "tsc && vite build && node scripts/build-dist.js",
         "dev": "vite",
         "start": "php artisan optimize:clear && php artisan serve --host=0.0.0.0 --port=8001",
