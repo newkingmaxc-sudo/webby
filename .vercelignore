@@ -1,0 +1,7 @@
+.env
+.env.*
+node_modules
+/storage/*.key
+demo-registrations.txt
+webby-release.zip
+.git
