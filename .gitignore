@@ -26,3 +26,5 @@ Thumbs.db
 docs/node_modules/
 demo-registrations.txt
 webby-release.zip
+
+/dist
